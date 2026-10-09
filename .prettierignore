@@ -1,0 +1,11 @@
+node_modules/
+.svelte-kit/
+build/
+package/
+coverage/
+test-results/
+playwright-report/
+pnpm-lock.yaml
+src-tauri/target/
+src-tauri/gen/
+src-tauri/Cargo.lock

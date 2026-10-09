@@ -1,0 +1,8 @@
+{
+  "id": "direct-film",
+  "title": "Direct film",
+  "duration": null,
+  "format_id": "mp4",
+  "ext": "mp4",
+  "url": "https://media.example.org/film.mp4"
+}

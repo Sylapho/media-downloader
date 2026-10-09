@@ -1,0 +1,26 @@
+{
+  "id": 42,
+  "title": null,
+  "duration": null,
+  "thumbnail": "javascript:alert(1)",
+  "uploader": null,
+  "channel": "Fallback channel",
+  "thumbnails": [
+    { "url": "file:///private/path", "width": 2000 },
+    { "url": "https://media.example.org/small.jpg", "width": 320 },
+    { "url": "https://media.example.org/large.jpg", "width": 1280 }
+  ],
+  "formats": [
+    {
+      "format_id": 7,
+      "ext": null,
+      "acodec": null,
+      "vcodec": null,
+      "width": -1,
+      "height": 1.5,
+      "fps": "unknown",
+      "filesize": 999999999999999999
+    },
+    null
+  ]
+}

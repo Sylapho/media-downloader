@@ -1,0 +1,53 @@
+{
+  "_type": "video",
+  "id": "sample-video",
+  "title": " Demo — 世界 ",
+  "duration": 125.5,
+  "thumbnail": "https://media.example.org/cover.jpg",
+  "uploader": "Open film studio",
+  "webpage_url": "https://media.example.org/watch?v=sample-video",
+  "formats": [
+    {
+      "format_id": "140",
+      "ext": "m4a",
+      "format_note": "audio",
+      "acodec": "mp4a.40.2",
+      "vcodec": "none",
+      "abr": 128,
+      "asr": 44100,
+      "filesize": 2000000,
+      "url": "https://cdn.example.org/private?token=secret"
+    },
+    {
+      "format_id": "137",
+      "ext": "mp4",
+      "acodec": "none",
+      "vcodec": "avc1.640028",
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97,
+      "vbr": 2500,
+      "tbr": 2500,
+      "filesize_approx": 39000000
+    },
+    {
+      "format_id": "18",
+      "ext": "mp4",
+      "acodec": "mp4a.40.2",
+      "vcodec": "avc1.42001E",
+      "width": 640,
+      "height": 360,
+      "fps": 30,
+      "tbr": 600
+    },
+    {
+      "format_id": "sb0",
+      "ext": "mhtml",
+      "vcodec": "images",
+      "protocol": "mhtml"
+    },
+    { "format_id": "drm", "has_drm": true, "vcodec": "h264" },
+    { "format_id": "18", "ext": "mp4" },
+    { "ext": "mp4", "vcodec": "h264" }
+  ]
+}

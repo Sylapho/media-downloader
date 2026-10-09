@@ -1,0 +1,63 @@
+{
+  "id": "sample-video",
+  "title": "Demo — 世界",
+  "duration": 125.5,
+  "thumbnail": "https://media.example.org/cover.jpg",
+  "uploader": "Open film studio",
+  "formats": [
+    {
+      "formatId": "140",
+      "extension": "m4a",
+      "formatNote": "audio",
+      "audioCodec": "mp4a.40.2",
+      "videoCodec": null,
+      "hasAudio": true,
+      "hasVideo": false,
+      "width": null,
+      "height": null,
+      "fps": null,
+      "audioBitrate": 128.0,
+      "videoBitrate": null,
+      "totalBitrate": null,
+      "sampleRate": 44100,
+      "fileSize": 2000000.0,
+      "fileSizeApprox": null
+    },
+    {
+      "formatId": "137",
+      "extension": "mp4",
+      "formatNote": null,
+      "audioCodec": null,
+      "videoCodec": "avc1.640028",
+      "hasAudio": false,
+      "hasVideo": true,
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97,
+      "audioBitrate": null,
+      "videoBitrate": 2500.0,
+      "totalBitrate": 2500.0,
+      "sampleRate": null,
+      "fileSize": null,
+      "fileSizeApprox": 39000000.0
+    },
+    {
+      "formatId": "18",
+      "extension": "mp4",
+      "formatNote": null,
+      "audioCodec": "mp4a.40.2",
+      "videoCodec": "avc1.42001E",
+      "hasAudio": true,
+      "hasVideo": true,
+      "width": 640,
+      "height": 360,
+      "fps": 30.0,
+      "audioBitrate": null,
+      "videoBitrate": null,
+      "totalBitrate": 600.0,
+      "sampleRate": null,
+      "fileSize": null,
+      "fileSizeApprox": null
+    }
+  ]
+}

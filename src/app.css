@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Semantic tokens keep the initial dark theme independent of OS preferences. */
+:root {
+  color-scheme: dark;
+  --background: #101315;
+  --foreground: #edf0ee;
+  --card: #191d20;
+  --secondary: #23292d;
+  --muted-foreground: #a8b2b5;
+  --primary: #bddfa1;
+  --primary-foreground: #172313;
+  --border: #343d41;
+  --ring: #c7eab0;
+  --destructive: #ffa8a8;
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-secondary: var(--secondary);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --radius-lg: var(--radius);
+  --font-sans: "Segoe UI", system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply m-0 bg-background font-sans text-sm text-foreground antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 4px;
+  }
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+}

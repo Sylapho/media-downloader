@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "media-downloader",
+        "title": "Media Downloader",
         "width": 800,
         "height": 600
       }
